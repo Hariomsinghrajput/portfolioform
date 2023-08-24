@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="bgBlack textWhite">Create a Portfolio </h1>
+    <!-- <a id="view">View</a> -->
+    <section class="card">
+    <section>
+      <form action="#"
+           method="post" id="forminput">
+      <h2 class="p" > Presonal details :</h2>
+    <!-- Section 1 -->
+    <section class="flex wFull">
+       <div class="col3 px4 borderBox"><input type="text" id="Firstname" class="name wFull py1" placeholder="your name" /></div>
+       <section  class="col3 px4 borderBox"> <input type="text"id="lastname" class="name wFull py1"  placeholder="last name" /></section>
+      <section class="col3 px4 borderBox"><input type="date" class="dob wFull py1" date=" mydateofbirth" /></section>
+    </section>
+    <section class="flex wFull mt5">
+    <div  class="col2 pl4  borderBox"> <input type="email" class="email wFull py1"  placeholder=" email" /></div>
+        <h2  class="ml5">Gender: </h2>
+        <section class="py1 ml">Male <input type="radio" class="male" name="mygender" /></section>
+          <section class="py1 ml5">Female <input type="radio" class="female" name="mygender"/></section>
+        </section>
+      </section>
+    </section>
+    <!-- Section 2 -->
+    <section class="wFull  pl4 ">
+      <h2 class="pl4">Education: </h2>
+      <section class="flex wFull">
+        <section class="wFull borderBox px2 pl4"><input type="text" class=" School wFull py1 "placeholder="School"  /></section>
+       
+      </section>
+      <section class="flex wFull">
+        <section class="wFull borderBox px2 pl4"><input type="text" class="  Degree mt5 wFull py1 "placeholder="Degree"  /></section>
+        </section>
+        <section class="flex wFull">
+          <section class="wFull borderBox px2 pl4"><input type="text" class="Field  mt5 wFull py1 "placeholder="Field of study"  /></section>
+           
+    </section></section>
+    <section class="wFull  pl4 ">
+      <h2 class="pl4">Professional Summary: </h2>
+      <section class="flex wFull">
+        <section class="wFull borderBox px2 pl4"><input type="text" class="experience wFull py1 "placeholder="your experience"  /></section>
+       
+      </section>
+      <section class="flex wFull">
+        <section class="wFull borderBox px2 pl4"><input type="text" class="skills  mt5 wFull py1 "placeholder="qualities and skills" /></section>
+        </section>
+    </section>
+    <!--section 6-->
+    <section class="wFull pl4">
+      <h2 class="wFull pl4">Carrier Objective: </h2>
+      <section class="flex wFull pl4">
+        <section class="col2 borderBox "><input type="text" class="Objective1 edu wFull py1"placeholder="Carrier Objective " /></section>
+        <section  class="col2 borderBox px4"> <input type="text" class="Objective2 eduAdd wFull py1"  placeholder="Carrier Objective" /></section>
+        
+      </section>
+    </section>
+    
+    <section class="wFull mt5 pl4">
+      <h2 class="pl4">Interest: </h2>
+      <section class="flex wFull">
+        <section class="wFull px4"><input type="text" class="Interest wFull py1"placeholder="Interest" /></section>
+        
+      </section>
+      
+      <h2 class="pl4">Project: </h2>
+      <section class="flex wFull">
+        <section  class="col3 borderBox px4"> <input type="text" class="Item wFull py1"placeholder="Interest" /></section>
+        <!-- <section  class="col3 borderBox px4"> <input type="text" class="Project2 wFull py1"  placeholder="Project2" /></section> -->
+        
+    </section>
+    <section class=" mt5">
+      <h2 class="pl4">Achievment: </h2>
+      <section class="flex wFull">
+        <section class="wFull borderBox px4"><input type="text" class="Achievment wFull py1" placeholder="Achievment" /></section>
+       
+      </section>
+    </section>
+  </section>
+      <!-- <section class="flex col2 pl4 mt5"> <input type="file" id="avatar"  name="avatar" accept="image/png, image/jpeg" /></section> -->
+  </form>
+     <div class="button  ">
+      
+      <button class="col10  rounded9 ml5  text20"    onclick="takenvalue()" >Submit</button>
+     
+      </div>
+    
+
+    
+    
+    <section class="flex flexWrap view ">
+      
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

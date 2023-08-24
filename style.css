@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    padding: 15px;
+}
+h1{
+ line-height: 1.7;
+ padding: 0 0 0 8px;
+}
+
+
+/* Font-------------------- */
+.font800{
+    font-weight: 800;
+}
+
+
+/* Text-------------------- */
+.text30{
+    font-size: 30px;
+}
+.text40{
+    font-size: 40px;
+}
+.text20{
+    font-size: 25px;
+}
+
+
+/* Rounded----------------- */
+.rounded9{
+    border-radius: 9px;
+}
+.rounded5{
+    border-radius: 5px;
+}
+
+/* Color------------------ */
+.textWhite{
+    color: white;
+}
+.textBlack{
+    color:  #090909e0;
+}
+.textStone{
+    color:  #282626e0;
+}
+.textGreen{
+    color:  #019e16e0;
+}
+
+/* Background Color----------------- */
+.bgAqua{
+    background-color: aqua;
+}
+.bgBlack{
+    background-color: black;
+}
+.bggray{
+    background-color: rgb(222, 222, 222);
+}
+
+/* Button-------------------- */
+button{
+   margin-top: 50px;
+
+}
+
+
+/* Flex */
+
+.flex{
+    display: flex;
+}
+.flexCol{
+    flex-direction: column;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.justifyStart{
+    justify-content: flex-start;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.gap1{
+    gap:16px;
+}
+
+
+/* Width---------------- */
+.wFull{
+    width: 100%;
+    }
+.col2{
+        width: 50%;
+    }
+.col3{
+    width: 33.3%;
+}
+.col5{
+    width: 20%;
+}
+.col8{
+    width: 80%;
+}
+.col10{
+    width: 10%;
+}
+.col16{
+    width: 16%;
+}
+.gap11{
+    width: 1%;
+}
+
+.icon{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: 3px;
+    box-sizing: border-box;
+    background: rgba(34, 34, 34, 0.8);
+}
+
+
+/* Padding----------------- */
+.px1{
+ padding: 0 4px;
+}
+.px2{
+    padding-right: 30px;
+   }
+.py1{
+padding: 4px 0;
+}
+.py2{
+    padding: 8px 0;
+    }
+
+.px4{
+    padding: 0 16px;
+   }
+.pl4{
+    
+    padding-left: 16px;
+}
+.p{
+  padding: 15px;
+}
+/* Box Sizing------------------- */
+.borderBox{
+    box-sizing: border-box;
+}
+
+.borderBottom1{
+    border:1px solid #1b1b1b
+}
+
+
+/* Margin---------------- */
+/* Top */
+.mt5{
+    margin-top: 20px;
+}
+.firstLetter::first-letter{
+  text-transform: uppercase;
+}
+
+/* Right */
+
+/* Bottom */
+.mb1{
+    margin-bottom: 4px;
+}
+/* Left */
+.ml5{
+    margin-left: 20px;
+}
+/* #profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px 0;
+  } */
