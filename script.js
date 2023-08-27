@@ -79,11 +79,9 @@ const takenvalue =(event) =>{
  const viewLists = ()=>{
   return ` 
 <div class="flex flex-col w-[35%] bg-pink-300 pl-2">
-<div class="p-9 w-85 box-border rounded-full bg-stone-300 mx-auto mt-2">
- <span class="textWhite">
-    <span class="text-3xl text-Black-900 font-semibold capitalize">${firstname[0]+'.'}${lastname[0]+'.'}</span> 
- </span>
-</div>
+<span class="text-3xl text-Black-900 font-semibold capitalize bg-slate-600 flex w-32  h-32 rounded-full justify-center items-center ml-48 ">${firstname[0]+'.'}${lastname[0]+'.'}</span>
+
+    
 <h3 class="text-stone-800 mb-1 mt-2 font-semibold text-2xl text-center capitalize">${firstname} ${lastname}</h3>
 <div class="mt-2 flex flex-col gap-2">
     <h3 class="text-left text-xl text-stone-800 font-semibold underline">About:-</h3>
@@ -189,7 +187,9 @@ viewLists();
 
 
 
-
+// <div class="flex w-5px h-100px rounded-full bg-black">
+//     <span class="text-3xl text-Black-900 font-semibold capitalize">${firstname[0]+'.'}${lastname[0]+'.'}</span>
+// </div>
 
 
 
